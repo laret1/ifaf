@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d1ay6wbn4kor0"]
+
+[ext_resource type="Material" uid="uid://buwww1snuay61" path="res://new_standard_material_3d.tres" id="1_yyvb3"]
+[ext_resource type="ArrayMesh" uid="uid://bt85rvdib0coy" path="res://new_array_mesh.tres" id="2_ytsrv"]
+
+[node name="grass_medium_01_geonodes_small_b_LOD0" type="MeshInstance3D" unique_id=1105737553]
+material_override = ExtResource("1_yyvb3")
+material_overlay = ExtResource("1_yyvb3")
+mesh = ExtResource("2_ytsrv")
+surface_material_override/0 = ExtResource("1_yyvb3")
+metadata/extras = {
+"flip_fluid": {}
+}

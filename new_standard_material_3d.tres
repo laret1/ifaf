@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://buwww1snuay61"]
+
+[ext_resource type="Texture2D" uid="uid://bqwgv7amkxwlp" path="res://Poliigon_GrassPatchyGround_4585/2K/textures/grass_medium_01_diff_4k.jpg" id="1_xxpdj"]
+[ext_resource type="Texture2D" uid="uid://dxn4lhti4efjr" path="res://Poliigon_GrassPatchyGround_4585/2K/textures/grass_medium_01_rough_4k.exr" id="2_4w8n5"]
+
+[resource]
+albedo_texture = ExtResource("1_xxpdj")
+roughness_texture = ExtResource("2_4w8n5")
+normal_enabled = true
